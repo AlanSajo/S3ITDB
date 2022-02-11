@@ -1,0 +1,36 @@
+******************************************************
+                 FIBONOCCI SERIES
+ALAN SAJO PAUL                          ROLL NO.6
+S3IT                                    DATE:17/12/2002
+ 
+*******************************************************
+
+
+def fibo(n):
+  if n<=1:
+    return n
+  else:
+    return(fibo(n-1) + fibo(n-2))
+
+nterms = 10
+if nterms <=0:
+  print("enter a positive integer")
+else:
+  print("fibonocci sequence")
+  for i in range(nterms):
+        print(fibo(i))
+
+***********************************************************
+SAMPLE OUTPUT
+
+fibonocci sequence
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34

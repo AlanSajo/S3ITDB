@@ -1,0 +1,47 @@
+******************************************************
+                 AVERAGE AND SQUARE
+ALAN SAJO PAUL                          ROLL NO.6
+S3IT                                    DATE:17/12/2002
+ 
+*******************************************************
+
+
+
+
+list=[]
+slist=[]
+n=int(input("enter the size of list:"))
+print("enter the value of list:")
+for x in range(0,n):
+	value=int(input())
+	list.append(value)
+print(list)
+count=0
+for y in list:
+	count=count+y
+for y in list:
+	square=y**2
+	slist.append(square)
+print("the sum of elements are:",count)
+print("the average of elements are:",count/n)
+print("the square list is:",slist)
+
+***********************
+
+SAMPLE OUTPUT
+
+Enter the first number6
+enter the second number4
+15
+
+Z:\S3IT\Python>square.py
+enter the size of list:4
+enter the value of list:
+2
+3
+6
+7
+[2, 3, 6, 7]
+the sum of elements are: 18
+the average of elements are: 4.5
+the square list is: [4, 9, 36, 49]

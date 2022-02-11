@@ -1,0 +1,21 @@
+******************************************************
+                      OCCURENCE
+ALAN SAJO PAUL                          ROLL NO.6
+S3IT                                    DATE:17/12/2002
+ 
+*******************************************************
+
+
+string=input("enter the string : ")
+sub=input("enter substring : ")
+c=string.count(sub)
+print("number of repitition:" ,c)
+
+**********************
+SAMPLE OUTPUT
+
+enter the string : my name is alan
+enter substring : alan
+number of repition: 1
+
+

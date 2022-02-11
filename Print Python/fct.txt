@@ -1,0 +1,22 @@
+******************************************************
+                 FACTORIAL
+ALAN SAJO PAUL                          ROLL NO.6
+S3IT                                    DATE:17/12/2002
+ 
+*******************************************************
+
+def factorial(n):
+	if n==0:
+	    return 1
+	elif(n<0):
+		print("factorial does not exist")
+	else:
+	    return n* factorial(n-1)
+n=int(input("enter the number")
+print(factorial(n))
+
+*********************************************************
+SAMPLE OUTPUT
+
+enter the number5
+120

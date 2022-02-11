@@ -1,0 +1,25 @@
+******************************************************
+                 ELEMENTS IN THE LIST
+ALAN SAJO PAUL                          ROLL NO.6
+S3IT                                    DATE:17/12/2002
+ 
+*******************************************************
+
+
+
+list=input("enter the elements in the list :")
+print("\n")
+key= input("enter the number to search")
+if key in list:
+	print(key,"is present in list")
+else:
+	print(key,"is not present in list")
+
+**********************************
+SAMPLE OUTPUT
+
+enter the elements in the list :2,5,8,4,6
+
+
+enter the number to search8
+8 is present in list
